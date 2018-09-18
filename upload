@@ -1,0 +1,7 @@
+#!/bin/bash
+rm *~
+rm *.o
+rm cc3k
+git add *
+git commit -m "${1}"
+git push -u origin master
