@@ -1,0 +1,1 @@
+ba.o bd.o board.o cell.o character.o dragon.o dragonhoard.o drow.o dwarf.o elf.o enemy.o goblin.o gold.o halfling.o human.o item.o main.o merchant.o normalgold.o object.o orc.o ph.o player.o potion.o rat.o rh.o shade.o troll.o vampire.o wa.o wd.o

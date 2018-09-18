@@ -1,0 +1,2 @@
+#!/bin/bash
+gedit human.cc dwarf.cc halfling.cc elf.cc orc.cc merchant.cc rat.cc dragon.cc enemy.cc &

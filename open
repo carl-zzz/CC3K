@@ -1,0 +1,31 @@
+#!/bin/bash
+
+if [ ${1} = 'e' ]; then
+	if [ ${2} = 'a' ]; then
+		./open e cc
+		./open e h
+	fi
+
+	if [ ${2} = 'cc' ]; then
+		gedit human.cc dwarf.cc halfling.cc elf.cc orc.cc merchant.cc dragon.cc rat.cc &
+	fi
+
+	if [ ${2} = 'h' ]; then
+		gedit human.h dwarf.h halfling.h elf.h orc.h merchant.h dragon.h rat.h &
+	fi
+fi
+
+if [ ${1} = 'p' ]; then
+	if [ ${2} = 'a' ]; then
+		./open p cc
+		./open p h
+	fi
+
+	if [ ${2} = 'cc' ]; then
+		gedit shade.cc drow.cc vampire.cc troll.cc goblin.cc valkyrie.cc &
+	fi
+
+	if [ ${2} = 'h' ]; then
+		gedit shade.h drow.h vampire.h troll.h goblin.h valkyrie.h &
+	fi
+fi

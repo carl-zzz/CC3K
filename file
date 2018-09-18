@@ -1,0 +1,2 @@
+#!/bin/bash
+ls *.cc | sed ':a;N;$!ba;s/\n/ /g' | sed 's/cc/o/g' | cat > ${1}
