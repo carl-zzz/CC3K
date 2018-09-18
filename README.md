@@ -3,6 +3,8 @@ An RPG game written by C++
 - Oriented object programming
 - Various design patterns
 
+![Screenshot](CC3K.png)
+
 WELCOME TO CHAMBERCRAWLER3000!
 **********************************************************
 * Controls *
